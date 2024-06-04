@@ -44,7 +44,7 @@ let upgradeIntelligence = parseFloat(
     `Виберіть скільки очків прокачки ви хочете віддати інтелекту (У вас є ${availablePoints} очків прокачки)`
   )
 );
-strength = upgradeIntelligence + intelligence;
+intelligence = upgradeIntelligence + intelligence;
 availablePoints = availablePoints - upgradeIntelligence;
 
 alert(
